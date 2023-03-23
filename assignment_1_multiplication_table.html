@@ -1,0 +1,12 @@
+<script>
+    function multiplicationTable(num)
+    {
+        for(let i = 1; i<= 10; i++)
+        {
+            let product = num * i;
+            document.write(`${num} * ${i} = `+product+'<br>');
+        }
+    }
+    const number = parseInt(prompt('Enter an integer: '));
+    multiplicationTable(number);
+</script>
